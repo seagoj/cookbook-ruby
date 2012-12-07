@@ -3,11 +3,7 @@ Vagrant::Config.run do |config|
   # force_update = true
 
   cookbooks = {
-    'apt'=>'git@github.com:seagoj/cookbook-apt.git',
-    'php5-fpm'=>'git@github.com:seagoj/cookbook-php5-fpm.git',
-    'nginx'=>'git@github.com:seagoj/cookbook-nginx.git',
-    'nginx::bootstrap'=>'git@github.com:seagoj/cookbook-nginx.git',
-    'redis::php'=>'git@github.com:seagoj/cookbook-redis.git'
+    'ruby'=>'git://github.com:seagoj/cookbook-ruby.git'
   }
   
   # All Vagrant configuration is done here. The most common configuration
