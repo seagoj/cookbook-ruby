@@ -1,4 +1,6 @@
 name                "ruby"
+description         "Installs ruby"
+long_description    IO.read(File.join(File.dirname(__FILE__), 'README.markdown'))
 version             "1.0.0"
 license             "MIT"
 depends             "apt"
